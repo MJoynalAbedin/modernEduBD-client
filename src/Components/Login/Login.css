@@ -1,0 +1,14 @@
+.google-btn{
+    width: 200px;
+    border: 1px solid gray;
+    background-color: #fff;
+    font-size: 13px;
+    color: gray;
+    height:34px;
+    border-radius:20px!important;
+    line-height: 32px;
+}
+.google-btn img{
+    width: 30px;
+    float: left;
+}

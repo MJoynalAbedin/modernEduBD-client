@@ -1,0 +1,14 @@
+.bg-of-nav{
+    background-image: linear-gradient(90deg, rgb(84, 48, 105), rgb(74, 64, 133));
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.logo:hover{
+    font-size: 25px;
+    color: whitesmoke;
+}
