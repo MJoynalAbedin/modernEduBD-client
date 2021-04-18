@@ -4,7 +4,9 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import AddAdmin from "./Components/Dashboard/AddAdmin/AddAdmin";
 import AddCourse from "./Components/Dashboard/AddCourse/AddCourse";
+import AllOrders from "./Components/Dashboard/AllOrders/AllOrders";
 import Checkout from "./Components/Dashboard/Checkout/Checkout";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import ManageCourse from "./Components/Dashboard/ManageCourse/ManageCourse";
@@ -47,6 +49,12 @@ function App() {
           </PrivateRoute>
           <PrivateRoute path="/orderList">
             <OrderList />
+          </PrivateRoute>
+          <PrivateRoute path="/allOrders">
+            <AllOrders />
+          </PrivateRoute>
+          <PrivateRoute path="/addAdmin">
+            <AddAdmin />
           </PrivateRoute>
         </Switch>
       </Router>
